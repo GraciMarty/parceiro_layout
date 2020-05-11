@@ -50,9 +50,9 @@ Widget home() {
                       children: <Widget>[
                         ClipRRect(
                           borderRadius: BorderRadius.circular(80.0),
-                          child: Image(
-                            height: 160.0,
-                            image: AssetImage('assets/user.png'),
+                          child: CircleAvatar(
+                            radius: 90.0,
+                            backgroundImage: AssetImage('assets/perfil_pic.png'),
                           ),
                         ),
                         Positioned(
@@ -70,8 +70,8 @@ Widget home() {
                         ),
                       ],
                     ),
-                    SizedBox(height: 40.0,),
-                    Text('NOME DO USUÁRIO', style: TextStyle(color: Color(0xFF37474F), fontSize: 30.0),),
+                    SizedBox(height: 20.0,),
+                    Text('ANTÔNIO CARVALHO', style: TextStyle(color: Color(0xFF37474F), fontSize: 30.0),),
                     SizedBox(height: 20.0,),
                     homeButton('PERFIL', Icon(Icons.account_circle, size: 45,),),
                     SizedBox(height: 20.0,),

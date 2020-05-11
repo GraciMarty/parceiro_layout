@@ -89,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       SizedBox(height: 30.0),
-                      menuButton('Acessar'),
+                      buttonLogin('Acessar'),
                     ],
                   ),
                 ),

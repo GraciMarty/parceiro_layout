@@ -50,9 +50,9 @@ Widget signIn() {
                     ),
                   ),
                   SizedBox(height: 90.0,),
-                  menuButton('Entrar'),
+                  buttonLogin('Entrar'),
                   SizedBox(height: 25.0,),
-                  menuButton('Registrar')
+                  buttonLogin('Registrar')
                 ],
               ),
             ),

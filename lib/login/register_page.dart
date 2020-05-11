@@ -74,7 +74,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         child: textField('Repita a senha', true)
                       ),
                       SizedBox(height: 25.0),
-                      menuButton('Próximo'),
+                      buttonLogin('Próximo'),
                     ],
                   ),
                 ),
@@ -147,7 +147,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         child: textField('Número Conta', true)
                       ),
                       SizedBox(height: 25.0),
-                      menuButton('Cadastrar'),
+                      buttonLogin('Cadastrar'),
                     ],
                   ),
                 ),

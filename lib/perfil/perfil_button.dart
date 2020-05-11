@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget buttonLogin(String title) {
+Widget perfilButton(String title) {
   return Row(
     children: <Widget>[
       Expanded(
